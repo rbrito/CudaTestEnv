@@ -16,9 +16,19 @@
 *.out
 *.app
 
+# Automatically generated tests
 vec*.txt
 mat*.txt
 
 # Garbage
 *~
 *.orig
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Resulting builds from CMake
+build
