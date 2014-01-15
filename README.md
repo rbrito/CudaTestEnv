@@ -12,8 +12,6 @@ Note, since this is using only using the standard `g++` compiler, there is
 no error checking for using non-CUDA functions and constructs with in the
 device functions. In fact, the `__global__` is just a no-op.
 
-Since this is using only using the standard g++ compiler, there is no error checking for using non cuda functions and contrustructs with in the device functions. In fact, the __global__ is just a noop.
-
 You will also need to call the device function using standard C-compliant
 syntax and also pass the function to `setupCudaSim`. Here is an example:
 
